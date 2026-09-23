@@ -13,5 +13,4 @@ function calculateTicketPrice(quantity, basePrice) {
   return Math.round(total);
 
 }
-
 module.exports = { isValidQuantity, calculateTicketPrice };
