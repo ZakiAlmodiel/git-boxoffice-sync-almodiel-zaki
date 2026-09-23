@@ -9,6 +9,7 @@ function calculateTicketPrice(quantity, basePrice) {
     total *= 0.9;
   }
 
+  
   return Math.floor(total);
 }
 
